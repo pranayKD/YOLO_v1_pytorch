@@ -56,7 +56,7 @@ Training loss per 10 iterations is stored. Here is the graph.
 
 It is mentioned in paper - `MSE loss has to be applied on square roots of predicted normalized width and height.` But this is not implemented in this code. Simply MSE loss of normalized width and height is used. 
 
-![Training Loss](Images/train_loss.png)
+![Training Loss](images/train_loss.png)
 
 ---- 
 
@@ -64,7 +64,7 @@ It is mentioned in paper - `MSE loss has to be applied on square roots of predic
 
 After each epoch, average validation loss for the validation set is calculated. Here is the graph.
 
-![Validation Loss](Images/valid_loss.png)
+![Validation Loss](images/valid_loss.png)
 
 The validation loss is still decreasing. Hence, the network can give better predictions if trained for more time. 
 
@@ -74,10 +74,10 @@ Network is tested on random images downloaded form Internet. The predictions sti
 
 Input Image             |  Predictions
 :-------------------------:|:-------------------------:
-<img src="Images/dogs.jpg" width="250" height="250" />  |  <img src="Images/dogs_out.png" width="280" height="200" />
-<img src="Images/horse_man.jpg" width="250" height="250" />  |  <img src="Images/horse_man_out.png" width="280" height="200" />
-<img src="Images/plane.jpg" width="250" height="250" />  |  <img src="Images/plane_out.png" width="280" height="260" />
-<img src="Images/car.jpg" width="250" height="250" />  |  <img src="Images/car_out.png" width="280" height="280" />
-<img src="Images/chair_table.jpg" width="250" height="250" />  |  <img src="Images/chair_table_out.png" width="280" height="280" />
-<img src="Images/plant.jpg" width="250" height="250" />  |  <img src="Images/plant_out.png" width="280" height="200" />
+<img src="images/dogs.jpg" width="250" height="250" />  |  <img src="images/dogs_out.png" width="280" height="200" />
+<img src="images/horse_man.jpg" width="250" height="250" />  |  <img src="images/horse_man_out.png" width="280" height="200" />
+<img src="images/plane.jpg" width="250" height="250" />  |  <img src="images/plane_out.png" width="280" height="260" />
+<img src="images/car.jpg" width="250" height="250" />  |  <img src="images/car_out.png" width="280" height="280" />
+<img src="images/chair_table.jpg" width="250" height="250" />  |  <img src="images/chair_table_out.png" width="280" height="280" />
+<img src="images/plant.jpg" width="250" height="250" />  |  <img src="images/plant_out.png" width="280" height="200" />
 
